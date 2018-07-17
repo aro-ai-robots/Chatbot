@@ -19,4 +19,4 @@ u: (~emohello) [hi there!] [hello to you as well] [salutations!]
 
 u: (~emohowzit) My inner circuitry is working just fine. Thank you.
 
-u: (my name be _*) Nice to meet you, '_0!
+u: (my name be _*) $userName='_0 Nice to meet you, '_0!
