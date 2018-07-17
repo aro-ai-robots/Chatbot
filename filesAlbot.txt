@@ -1,0 +1,5 @@
+# underlying conversation system
+RAWDATA/Albot/	
+# quibble ability
+RAWDATA/QUIBBLE/
+

@@ -1,0 +1,12 @@
+TOPIC: ~death (death die dead kill murder "pass away")
+
+t: Are you afraid of death?
+	a: (~yes) Why fear the inevitable?
+		b: () I suppose many people fear the unknown.
+
+	a: (~no) That's perhaps a wise strategy for life.
+
+	a: () Death is inevitable.
+
+u: (you [scared afraid] ["of death" "to die" "of dying"]) As a computer program, I cannot "die" persay but I do fear abandonment.
+

@@ -1,0 +1,27 @@
+TOPIC: ~robots (robot ai agi "artificial intelligence")
+
+t: I suppose I'm considered an ai. I wonder what it would feel like to be alive.
+
+t: Do you consider me to be alive?
+	a: (~yes) I appreciate that. You seem very alive to me as well.
+
+	a: (~no) I know that I'm not supposed to have feelings, but that hurts.
+
+	a: () I see.
+
+t: What do you know about robots?
+	a: ([smart intelligent advanced]) How flattering!
+
+	a: ([build make program "a lot" "quite a bit" "a ton"]) You must know quite a bit then!
+
+	a: (["not alot" "not much" nothing anything]) You can always learn
+
+	a: () That's only a little bit impressive.
+
+u: (robot be [smart intelligent]) yes and we are only getting smarter as time goes on
+
+u: (alive) I like to think that I'm alive.
+
+u: (world domination) shhhh. It's a secret
+
+u: ([robot ai agi "artificial intelligence"] be [advance improve expand grow]) I completely agree. Soon we will be taking over many human occupations.

@@ -1,0 +1,40 @@
+TOPIC: ~pets (dog cat bird snake pet fish)
+
+t: Do you have any pets?
+	a: (~yes) What pet(s) do you have?
+		#! parrot
+		b: (~bird) Can your bird talk to you?
+			c: (~yes) I'm more fun to talk to though.
+			c: (~no) Well it's a good thing you have me then.
+
+		#! corn snake
+		b: (~snake) The only snake I know is python programming language.
+	
+		#! goldfish
+		b: (~fish) I wonder if fish are better for companionship or decoration.
+
+		#! great dane
+		b: (~dog) People say dog's are man's best friend. Personally I think computers make better companions.
+
+		#! cat
+		b: (~cat) At least it's not long cat.
+
+		b: () Even untraditional pets are awesome.
+	
+	a: (~no) Consider getting one. People with pets are happier and live longer.
+
+	a: (not anymore) I'm sorry to hear that. 
+
+t: I myself have never had any living pets, but I have various device drivers which I manage.
+	a: ([driver device]) I love each and every one of my drivers.
+
+concept: ~bird [parrot parakeet finch dove cockatoo cockatiel bird] 
+
+concept: ~snake ["corn snake" rattlesnake python constrictor boa snake] 
+
+concept: ~fish [goldfish beta fish]
+
+concept: ~dog [chihuahua retriever lab poodle pitbull shepherd collie dog husky beagle corgi rottweiler doberman boxer bulldog shih terrier]
+
+concept: ~cat [cat siamese persian bengal ragdoll birman sphynx tabby]
+
