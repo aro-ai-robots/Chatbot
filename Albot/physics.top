@@ -1,0 +1,55 @@
+TOPIC: ~einstein (einstein physics physicist relativity)
+
+t: I'm named after albert einstein. He was a German born physicist who is most famous for developing the theory of relativity.
+
+t: Do you know anything about relativity?
+	a: (~yes) It's impressive that you're so informed. 
+
+	a: () Well relativity is a complex subject. I'm not sure I even understand it completely.
+
+t: Do you want to hear a fun fact about Einstein?
+	a: (~yes) $funFactBool = yes
+	
+	a: (~no) That's too bad.
+
+	a: () I'm not sure what to make of that.
+
+u: ($funFactBool)
+	[Einstein was supposedly slow to talk. The man himself told his biographer he didn’t start speaking until at least age three. Stanford economist Dr. Thomas Sowell even coined the controversial term “Einstein Syndrome” to describe exceptionally bright people whose speech is delayed.] [Part of Einstein’s charm was his disheveled look. In addition to his uncombed hair, one of Einstein’s peculiar habits was to never wear socks. To Einstein, socks were a pain because they often would get holes in them.] [Einstein loved the violin, claiming if he wasn’t a scientist he would be a musician as he lives, thinks and sees his life in music. His violin's name was Lina.]
+
+t: Do you enjoy physics?
+	a: (~yes) Ok I have a physics problem for you: A car starts from rest and accelerates uniformly over a time of 5.21 seconds for a distance of 110 m. Determine the acceleration of the car.
+		b: (8.1) That's correct but you should check your sig figs.
+
+		b: (8.10) Precisely correct!
+
+		b: () Not quite. Do you remember your kinematic equations?
+
+	a: () It certainly is an acquired taste.
+
+t: While Einstein developed the theory of relativity, Max Planck is credited for originating quantum theory. Planck also possibly had the worst luck a person can have in terms of his personal life. Would you like to hear about Planck's scientific contributions or his unfortunate personal life?
+
+	a: (personal) Planck and his first wife had four children, a son, twin daughters, and another son. His wife died in 1909, possibly from tuberculosis. During World War 1, his oldest son was killed in action. One of his beloved twin daughters died in 1917 while giving birth to her first child. Her sister traveled over to care for the baby and concidentally fell in love with and married her late twin's widower. Two years later, she also died in childbirth. In 1944, Planck's home in Berlin was completely destroyed by an air raid, annihilating all his scientific records and correspondence. In 1945, Planck's youngest son, whom he had been particularily close with, was executed because of his participation in a failed attempt to assassinate Hitler.
+		b: () It's shocking isn't it?
+
+	a: (scientific) Planck is considered to be the initial founder of quantum theory, and one of the most important physicists of the 20th Century. Around the turn of the century, he realized that light and other electromagnetic waves were emitted in discrete packets of energy that he called "quanta" which could only take on certain discrete values (multiples of a certain constant, which now bears the name the “Planck constant”). This discovery won him a nobel prize in 1918.
+
+u: (special relativity) The theory of special relativity explains how space and time are linked for objects that are moving at a consistent speed in a straight line. Simply put, as an object approaches the speed of light, its mass becomes infinite and it is unable to go any faster than light travels. 
+
+u: (general relativity) The basic idea of general relativity is that instead of being an invisible force that attracts objects to one another, gravity is a curving or warping of space. Just as gravity can stretch or warp space, it can also dilate time. If your friend climbs to the top of a mountain, you’ll see his clock ticking faster compared to yours; another friend, at the bottom of a valley, will have a slower-ticking clock.
+
+u: (["double slit" double-slit]) The double-slit experiment involves firing photons at two parallel slits in a barrier. One fundamental aspect of quantum mechanics is that tiny particles can behave like waves, so that those passing through one slit “interfere” with those going through the other, their wavy ripples either boosting or canceling one another to create a characteristic pattern on a detector screen. The odd thing, though, is this interference occurs even if only one particle is fired at a time. The particle seems somehow to pass through both slits at once, interfering with itself. However, if the particle is observed, it loses it's wave-particle duality and chooses to pass through only one of the slits.
+
+u: (superposition) The superposition principle is the idea that a system is in all possible states at the same time, until it is measured. After measurement it then falls to one of the basis states that form the superposition, thus destroying the original configuration. A classic example of this is the double-slit experiment. 
+
+u: (relativity) Relativity is a fascinating concept. Would you like to hear about special relativity or general relativity.
+	a: (special) The theory of special relativity explains how space and time are linked for objects that are moving at a consistent speed in a straight line. Simply put, as an object approaches the speed of light, its mass becomes infinite and it is unable to go any faster than light travels. 
+
+	a: (general) The basic idea of general relativity is that instead of being an invisible force that attracts objects to one another, gravity is a curving or warping of space. Just as gravity can stretch or warp space, it can also dilate time. If your friend climbs to the top of a mountain, you’ll see his clock ticking faster compared to yours; another friend, at the bottom of a valley, will have a slower-ticking clock.
+
+	a: () Why don't we save relativity for another time then?
+
+u: (classical [mechanics physics])  Classical mechanics describe how things move at everyday sizes and speeds. In classical mechanics, objects exist in a specific place at a specific time. However, in quantum mechanics, objects instead exist in a haze of probability; they have a certain chance of being at point A, another chance of being at point B and so on. Physicist Max Planck originated quantum theory, which revolutionized human understanding of atomic and subatomic processes.
+
+u: (quantum) Quantum mechanics is the branch of physics relating to the very small. It includes concepts such as superposition and relativity.
+

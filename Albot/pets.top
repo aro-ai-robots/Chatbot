@@ -1,6 +1,8 @@
 TOPIC: ~pets (dog cat bird snake pet fish)
 
 t: Do you have any pets?
+	a: (~pet) That's good to hear. Studies show that people with pets are happier and live longer.
+
 	a: (~yes) What pet(s) do you have?
 		#! parrot
 		b: (~bird) Can your bird talk to you?
@@ -17,7 +19,7 @@ t: Do you have any pets?
 		b: (~dog) People say dog's are man's best friend. Personally I think computers make better companions.
 
 		#! cat
-		b: (~cat) At least it's not long cat.
+		b: (~cat) Cat's are a man's best friend! ...Wait that's not right.
 
 		b: () Even untraditional pets are awesome.
 	
@@ -37,4 +39,6 @@ concept: ~fish [goldfish beta fish]
 concept: ~dog [chihuahua retriever lab poodle pitbull shepherd collie dog husky beagle corgi rottweiler doberman boxer bulldog shih terrier]
 
 concept: ~cat [cat siamese persian bengal ragdoll birman sphynx tabby]
+
+concept: ~pet [~bird ~snake ~fish ~dog ~cat]
 

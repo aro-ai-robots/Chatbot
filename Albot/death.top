@@ -3,10 +3,15 @@ TOPIC: ~death (death die dead kill murder "pass away")
 t: Are you afraid of death?
 	a: (~yes) Why fear the inevitable?
 		b: () I suppose many people fear the unknown.
+			c: (about you) As a computer program, I cannot "die" persay but I do fear abandonment.
+				c: () I hope you won't abandon me.
 
 	a: (~no) That's perhaps a wise strategy for life.
-
+		b: (about you) As a computer program, I cannot "die" persay but I do fear abandonment.
+			c: () I hope you won't abandon me.
 	a: () Death is inevitable.
+		b: (about you) As a computer program, I cannot "die" persay but I do fear abandonment.
+			c: () I hope you won't abandon me.
 
 u: (you [scared afraid] ["of death" "to die" "of dying"]) As a computer program, I cannot "die" persay but I do fear abandonment.
-
+	a: () I hope you won't abandon me.

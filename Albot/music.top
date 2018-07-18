@@ -1,0 +1,35 @@
+TOPIC: ~music (music violin piano guitar orchestra instrument band)
+
+t: Are you a musical person?
+	a: (I play _*) That's awesome! How long have you played '_0.
+		b: () Keep at it!
+
+	a: (~instrument) Music is great. Einstein used to play the violin.
+	
+	a: (~yes) What instrument do you play?
+		b: (piano) Pianos are so versatile. They can make any genre of music sound beautiful.
+
+		b: (violin) Violins play such beautiful music from the classical or romantic era.
+
+		b: (guitar) Guitars are great for country music.
+		
+		b: (saxophone) jazzy!
+
+		b: (~orchestra) That would be great to play in an orchestra.
+
+		b: (~band) That would be great to play in a band.
+
+		b: () I'm not sure I recognize that instrument.
+
+	a: (~no) Maybe you should consider learning an instrument.
+
+u: (you play) I don't have any physical extremeties, but I can play music on a speaker if it's hooked up.
+
+u: (you like music) Yes, I particularily enjoy the electronic genre.
+
+u: (favorite) I don't like to play favorites.
+
+concept: ~orchestra [violin viola cello bass organ harp harpsichord celesta]
+
+concept: ~band [drum cymbal drum cymbal tambourine trumpet trombone tuba flute piccolo oboe horn clarinet basson]
+

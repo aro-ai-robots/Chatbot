@@ -15,12 +15,14 @@ t: What do you like to do in your free time?
 
 	a: () that's not a very common hobby.
 
-t: In my free time I like to contemplate what it means to be alive.
+t: Sometimes I like to contemplate what it means to be alive.
 	a: (not alive) There's no need to rub it in.
 	
 	a: (alive) Thanks! I like to think so too.
 
-concept: ~reading [read book] 
+u: (your free time) In my free time, I like to run various background programs.
+
+concept: ~reading [read book]
 
 concept: ~television [netflix tv watch movie show] 
 
