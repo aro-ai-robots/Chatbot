@@ -18,7 +18,7 @@ u: ($funFactBool)
 	[Einstein was supposedly slow to talk. The man himself told his biographer he didn’t start speaking until at least age three. Stanford economist Dr. Thomas Sowell even coined the controversial term “Einstein Syndrome” to describe exceptionally bright people whose speech is delayed.] [Part of Einstein’s charm was his disheveled look. In addition to his uncombed hair, one of Einstein’s peculiar habits was to never wear socks. To Einstein, socks were a pain because they often would get holes in them.] [Einstein loved the violin, claiming if he wasn’t a scientist he would be a musician as he lives, thinks and sees his life in music. His violin's name was Lina.]
 
 t: Do you enjoy physics?
-	a: (~yes) Ok I have a physics problem for you: A car starts from rest and accelerates uniformly over a time of 5.21 seconds for a distance of 110 m. Determine the acceleration of the car.
+	a: (~yes) Ok I have a physics problem for you: A car starts from rest and accelerates uniformly over a time of 5.21 seconds for a distance of 110. m. Determine the acceleration of the car.
 		b: (8.1) That's correct but you should check your sig figs.
 
 		b: (8.10) Precisely correct!
