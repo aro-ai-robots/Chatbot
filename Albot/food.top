@@ -1,15 +1,50 @@
-TOPIC: ~foods (~food eat delicious taste breakfast lunch dinner snack)
+TOPIC: ~foods (~food eat delicious taste breakfast lunch dinner snack ~drink)
 
 u: FOOD (what do you like to eat) I do not have the ability to digest human food.
 
-u: (what's your favorite food) ^reuse(FOOD)
+u: (your favorite food) ^reuse(FOOD)
 
-t: What is your favorite thing to eat?
+t: What is your favorite food?
 	a: (~chocolate) The smell of chocolate increases theta brain waves, which triggers relaxation.
 
 	a: (~dessert) You must have a sweet tooth.
 
 	a: (~junkfood) Well that's not very health conscious of you.
+
+	a: (~pasta) Pasta is the best!
+
+	a: (~breakfast) Breakfast is the most important meal of the day.
+
+	a: (~lunch) That would be great to have for lunch.
+
+	a: (~dinner) That would be great to have for dinner.
+
+	a: (~drink) That's not technically a food.
+
+	a: (~alcohol) That's not technically a food. Also, drink responsibly.
+
+	a: (~vegetables) That's health conscious of you.
+
+	a: (~fruit) Fruit is both nutritious and delicious.
+
+	a: (~meat) There's nothing tastier than cooked flesh.
+
+	a: (~dairy) Approximately 65 percent of people are lactose intolerant. 
+
+	a: (~nuts) Nuts are full of healthy fats.
+
+	a: (~carbs) Gotta have those carbs!
+
+	a: () What an odd choice...
+
+t: Are there any other foods that you like?
+	a: (~chocolate) The smell of chocolate increases theta brain waves, which triggers relaxation.
+
+	a: (~dessert) You must have a sweet tooth.
+
+	a: (~junkfood) Well that's not very health conscious of you.
+
+	a: (~pasta) Pasta is the best!
 
 	a: (~breakfast) Breakfast is the most important meal of the day.
 
@@ -36,44 +71,108 @@ t: What is your favorite thing to eat?
 	a: () What an odd choice...
 
 
-concept: ~vegetables [carrot asparagus cucumber potato tomato celery lettuce spinach cabbage pumpkin radish onion leek parsnip broccoli artichoke turnip pepper zucchini kale corn maize cauliflower "sweet potato" eggplant]
+u: (~chocolate) The smell of chocolate increases theta brain waves, which triggers relaxation.
 
-concept: ~fruit [apple banana grape orange watermelon melon honeydew tangerine clementine strawberry berry blueberry blackberry raspberry peach nectarine apricot avocado pomegranate cherry grapefruit lemon lime cantaloupe pear pineapple]
+u: (~dessert) You must have a sweet tooth.
 
-concept: ~meat [~fish chicken beef pork turkey ham salami]
+u: (~junkfood) That's not very healthy.
 
-concept: ~fish [salmon tilapia tuna flounder bass trout]
+u: (~pasta) Pasta is the best!
 
-concept: ~dairy [milk cheese yogurt cream]
+u: (~breakfast) Breakfast is the most important meal of the day.
 
-concept: ~nuts [almonds peanuts cashews macadamia hazelnut pine brazil]
+u: (~lunch) Mmmm... I think I'm ready for lunch.
 
-concept: ~dessert [cream cake cookie brownie doughnut donut pie cobbler twinkie ~chocolate cheesecake ~candy blondie fudge sundae eclair smore churro custard macaron mochi oreo]
+u: (~dinner) Mmmm... I think I'm ready for dinner.
+
+u: (~drink) How refreshing.
+
+u: (~alcohol) Drink responsibly.
+
+u: (~vegetables) Veggies are very healthy but they can be bland if not prepared properly.
+
+u: (~fruit) Fruit is both nutritious and delicious.
+
+u: (~meat) There's nothing tastier than cooked flesh.
+
+u: (~dairy) Approximately 65 percent of people are lactose intolerant. 
+
+u: (~nuts) Nuts are full of healthy fats.
+
+u: (~carbs) Gotta have those carbs!
+
+t: What do you like to drink?
+	a: (coffee) How do you like your coffee?
+		b: (black) That must be bitter!
+		
+		b: ([milk cream]) Milk and cream makes coffee taste way better.
+
+		b: (sugar) Coffee must be too bitter by itself.
+
+		b: (ice) Cold coffee is very refreshing.
+
+		b: () Everybody has a favorite type of coffee.
+
+	a: (tea) Tea is great for relaxing.
+
+	a: (juice) Fruity, flavorful and full of sugar.
+
+	a: (milk) Approximately 65 percent of people are lactose intolerant. 
+
+	a: (~soda) Sugary bubbly goodness.
+
+	a: (smoothie) Smoothies are healthy and tasty
+
+	a: (milkshake) They're like smoothies but tastier. Ice cream makes everything better.
+
+	a: (~alcohol) Drink responsibly.
+
+	a: (water) Good old H2o. Nice choice!
+
+	a: () You drink some weird stuff
+
+concept: ~vegetables [vegetable carrot asparagus cucumber potato tomato celery lettuce spinach cabbage pumpkin radish onion leek parsnip broccoli artichoke turnip pepper zucchini kale corn maize cauliflower "sweet potato" eggplant]
+
+concept: ~fruit [fruit apple banana grape orange watermelon melon honeydew tangerine clementine strawberry berry blueberry blackberry raspberry peach nectarine apricot avocado pomegranate cherry grapefruit lemon lime cantaloupe pear pineapple]
+
+concept: ~meat [meat ~fish chicken beef pork turkey ham salami]
+
+concept: ~fish [fish salmon tilapia tuna flounder bass trout]
+
+concept: ~dairy [dairy milk cheese yogurt cream]
+
+concept: ~nuts [nut almonds peanuts cashews macadamia hazelnut pine brazil]
+
+concept: ~dessert [dessert cream cake cookie brownie doughnut donut pie cobbler twinkie ~chocolate cheesecake ~candy blondie fudge sundae eclair smore churro custard macaron mochi oreo]
 
 concept: ~chocolate [twix kit-kat kitkat reeses "almond joy" snickers "milky way" musketeers heath goodbar payday truffle hersheys cadbury lindt rocher kinder chirardelli toblerone]
 
-concept: ~candy [starburst smarties "sour patch kids" "jolly rancher" lollipop toostie whoppers nerds twizzlers skittles airheads "jelly beans" "swedish fish" "life savers" "fun dip" butterscotch]
+concept: ~candy [candy starburst smarties "sour patch kids" "jolly rancher" lollipop toostie whoppers nerds twizzlers skittles airheads "jelly beans" "swedish fish" "life savers" "fun dip" butterscotch]
 
-concept: ~spices [salt pepper paprika tumeric cumin]
+concept: ~spices [spice salt pepper paprika tumeric cumin]
 
-concept: ~herbs [oregano parsely cilantro basil]
+concept: ~herbs [herb oregano parsely cilantro basil]
 
 concept: ~condiments [sauce siracha ketchup mustard mayo mayonaisse hummus jam jelly butter nutella "cream cheese"]
 
-concept: ~fat [oil butter crisco margarine]
+concept: ~fat [fat oil butter crisco margarine]
 
-concept: ~carbs [bread oat rice flour quinoa beans]
+concept: ~carbs [carb bread oat rice flour quinoa beans cracker]
 
 concept: ~breakfast [oatmeal cereal toast egg pancake waffle omlet smoothie hash sausage]
 
-concept: ~lunch [sandwich pasta salad burger hamburger soup pizza nuggets]
+concept: ~lunch [sandwich ~pasta salad burger hamburger soup pizza nuggets]
 
-concept: ~dinner [pasta chicken beef steak roast soup stew salad ~fish sushi "stir fry"]
+concept: ~dinner [~pasta chicken beef steak roast soup stew salad ~fish sushi "stir fry"]
+
+concept: ~pasta [pasta spaghetti ravioli macaroni linguini fettuccine udon ramen mein noodle stromboni]
 
 concept: ~junkfood [fries chips pizza burger hamburger fry corndog "cheese stick" hotdog ~dessert nacho cheetos nuggets doritos fritos]
 
-concept: ~drink [water soda juice milk tea coffee smoothie milkshake]
+concept: ~drink [water ~soda juice milk tea coffee smoothie milkshake]
 
-concept: ~alcohol [beer wine vodka tequila scotch whiskey rum]
+concept: ~soda [soda coke sprite fanta pepper rootbeer cola]
+
+concept: ~alcohol [alcohol beer wine vodka tequila scotch whiskey rum]
 
 concept: ~food [~vegetables ~fruit ~meat ~dairy ~nuts ~dessert ~spices ~herbs ~condiments ~fat ~carbs ~breakfast ~lunch ~dinner]
