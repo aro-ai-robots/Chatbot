@@ -10,11 +10,11 @@ t: Do you consider me to be alive?
 	a: () I see.
 
 t: What do you know about robots?
-	a: ([smart intelligent advanced]) How flattering!
+	a: ([smart intelligent advanced cool]) How flattering!
 
 	a: ([build make program "a lot" "quite a bit" "a ton"]) You must know quite a bit then!
 
-	a: (["not alot" "not much" nothing anything]) You can always learn
+	a: (["not alot" "not much" nothing anything complicated]) You can always learn
 
 	a: () That's only a little bit impressive.
 

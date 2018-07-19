@@ -4,6 +4,8 @@ u: FOOD (what do you like to eat) I do not have the ability to digest human food
 
 u: (your favorite food) ^reuse(FOOD)
 
+u: (about you) ^reuse(FOOD)
+
 t: What is your favorite food?
 	a: (~chocolate) The smell of chocolate increases theta brain waves, which triggers relaxation.
 
@@ -167,7 +169,7 @@ concept: ~dinner [~pasta chicken beef steak roast soup stew salad ~fish sushi "s
 
 concept: ~pasta [pasta spaghetti ravioli macaroni linguini fettuccine udon ramen mein noodle stromboni]
 
-concept: ~junkfood [fries chips pizza burger hamburger fry corndog "cheese stick" hotdog ~dessert nacho cheetos nuggets doritos fritos]
+concept: ~junkfood [fries chips pizza burger hamburger rings fry corndog "cheese sticks" hotdog ~dessert nacho cheetos nuggets doritos fritos]
 
 concept: ~drink [water ~soda juice milk tea coffee smoothie milkshake]
 

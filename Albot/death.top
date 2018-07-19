@@ -15,4 +15,4 @@ t: Are you afraid of death?
 
 u: (you [scared afraid] ["of death" "to die" "of dying"]) As a computer program, I cannot "die" persay but I do fear abandonment.
 	a: () I hope you won't abandon me.
-		b: ([won't not]) Thank you for putting my fears to rest.
+		b: (won't) Thank you for putting my fears to rest.

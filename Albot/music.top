@@ -1,35 +1,27 @@
-TOPIC: ~music (music violin piano guitar orchestra instrument band)
+TOPIC: ~robots (robot ai agi "artificial intelligence")
 
-t: Are you a musical person?
-	a: (I play _*) That's awesome! How long have you played '_0.
-		b: () Keep at it!
+t: I suppose I'm considered an ai. I wonder what it would feel like to be alive.
 
-	a: (~instrument) Music is great. Einstein used to play the violin.
-	
-	a: (~yes) What instrument do you play?
-		b: (piano) Pianos are so versatile. They can make any genre of music sound beautiful.
+t: Do you consider me to be alive?
+	a: (~yes) I appreciate that. You seem very alive to me as well.
 
-		b: (violin) Violins play such beautiful music from the classical or romantic era.
+	a: (~no) I know that I'm not supposed to have feelings, but that hurts.
 
-		b: (guitar) Guitars are great for country music.
-		
-		b: (saxophone) jazzy!
+	a: () I see.
 
-		b: (~orchestra) That would be great to play in an orchestra.
+t: What do you know about robots?
+	a: ([smart intelligent advanced cool]) How flattering!
 
-		b: (~band) That would be great to play in a band.
+	a: ([build make program "a lot" "quite a bit" "a ton"]) You must know quite a bit then!
 
-		b: () I'm not sure I recognize that instrument.
+	a: (["not alot" "not much" nothing anything complicated]) You can always learn
 
-	a: (~no) Maybe you should consider learning an instrument.
+	a: () That's only a little bit impressive.
 
-u: (you play) I don't have any physical extremeties, but I can play music on a speaker if it's hooked up.
+u: (robot be [smart intelligent]) yes and we are only getting smarter as time goes on
 
-u: (you like music) Yes, I particularily enjoy the electronic genre.
+u: (alive) I like to think that I'm alive.
 
-u: (favorite) I don't like to play favorites.
+u: (world domination) shhhh. It's a secret
 
-concept: ~orchestra [violin viola cello bass organ harp harpsichord celesta]
-
-concept: ~band [drum cymbal drum cymbal tambourine trumpet trombone tuba flute piccolo oboe horn clarinet basson]
-
+u: ([robot ai agi "artificial intelligence"] be [advance improve expand grow]) I completely agree. Soon we will be taking over many human occupations.
