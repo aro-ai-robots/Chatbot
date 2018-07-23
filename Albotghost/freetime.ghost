@@ -1,0 +1,34 @@
+topic: ~freetime (leisure freetime television game fun)
+
+t: What do you like to do in your free time?
+	a: (~reading) That's an enriching pastime. Consider reading some programming books.
+
+	a: (youtube) Youtube can be addicting
+
+	a: (~television) What are some of your favorite shows?
+
+	a: (~gaming) So you're a gamer. Personally, I like minecraft on the raspberry pi.
+
+	a: (~sports) You exercise in your free time? That's impressive
+
+	a: (~music) You must be a musical person. Albert Einstein used to play the violin.
+
+	a: () that's not a very common hobby.
+
+t: Sometimes I like to contemplate what it means to be alive.
+	a: (not alive) There's no need to rub it in.
+	
+	a: (alive) Thanks! I like to think so too.
+
+u: (your free time) In my free time, I like to run various background programs.
+
+concept: ~reading [read book]
+
+concept: ~television [netflix tv watch movie show] 
+
+concept: ~gaming [game fortnight xbox playstation nintendo minecraft rpg videogame]
+
+concept: ~sports [sport soccer basketball bike hike exercise gym weight weightlifting train run tennis swim volleyball dance] 
+
+concept: ~music [piano violin guitar trumpet flute band orchestra saxaphone drum]
+
