@@ -3,7 +3,7 @@ TOPIC: ~pets (dog cat bird snake pet fish)
 t: Do you have any pets?
 	a: (~pet) That's good to hear. Studies show that people with pets are happier and live longer.
 
-	a: (~yes) What pet(s) do you have?
+	a: (~yes) What pets do you have?
 		#! parrot
 		b: (~bird) Can your bird talk to you?
 			c: (~yes) I'm more fun to talk to though.
