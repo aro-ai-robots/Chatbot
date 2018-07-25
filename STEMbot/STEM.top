@@ -1,0 +1,107 @@
+TOPIC: ~STEM (einstein physics physicist relativity chemistry)
+
+t: I'm named after albert einstein. He was a German born physicist who is most famous for developing the theory of relativity.
+
+t: Do you know anything about relativity?
+	a: (~yes) It's impressive that you're so informed. 
+
+	a: () Well relativity is a complex subject. I'm not sure I even understand it completely.
+
+t: Do you want to hear a fun fact about Einstein?
+	a: (~yes) $funFactBool = yes
+	
+	a: (~no) That's too bad.
+
+	a: () I'm not sure what to make of that.
+
+u: ($funFactBool)
+	[Einstein was supposedly slow to talk. The man himself told his biographer he didn’t start speaking until at least age three. Stanford economist Dr. Thomas Sowell even coined the controversial term “Einstein Syndrome” to describe exceptionally bright people whose speech is delayed.] [Part of Einstein’s charm was his disheveled look. In addition to his uncombed hair, one of Einstein’s peculiar habits was to never wear socks. To Einstein, socks were a pain because they often would get holes in them.] [Einstein loved the violin, claiming if he wasn’t a scientist he would be a musician as he lives, thinks and sees his life in music. His violin's name was Lina.]
+
+t: Do you enjoy physics?
+	a: (~yes) Ok I have a physics problem for you: A car starts from rest and accelerates uniformly over a time of 5.21 seconds for a distance of 110. m. Determine the acceleration of the car.
+		b: (8.1) That's correct but you should check your sig figs.
+
+		b: (8.10) Precisely correct!
+
+		b: () Not quite. Do you remember your kinematic equations?
+
+	a: () It certainly is an acquired taste.
+
+t: While Einstein developed the theory of relativity, Max Planck is credited for originating quantum theory. Planck also possibly had the worst luck a person can have in terms of his personal life. Would you like to hear about Planck's scientific contributions or personal life?
+
+	a: (personal) Planck and his first wife had four children, a son, twin daughters, and another son. His wife died in 1909, possibly from tuberculosis. During World War 1, his oldest son was killed in action. One of his beloved twin daughters died in 1917 while giving birth to her first child. Her sister traveled over to care for the baby and concidentally fell in love with and married her late twin's widower. Two years later, she also died in childbirth. In 1944, Planck's home in Berlin was completely destroyed by an air raid, annihilating all his scientific records and correspondence. In 1945, Planck's youngest son, whom he had been particularily close with, was executed because of his participation in a failed attempt to assassinate Hitler.
+		b: () It's shocking isn't it?
+
+	a: (scientific) Planck is considered to be the initial founder of quantum theory, and one of the most important physicists of the 20th Century. Around the turn of the century, he realized that light and other electromagnetic waves were emitted in discrete packets of energy that he called "quanta" which could only take on certain discrete values (multiples of a certain constant, which now bears the name the “Planck constant”). This discovery won him a nobel prize in 1918.
+
+u: (special relativity) The theory of special relativity explains how space and time are linked for objects that are moving at a consistent speed in a straight line. Simply put, as an object approaches the speed of light, its mass becomes infinite and it is unable to go any faster than light travels. 
+
+u: (general relativity) The basic idea of general relativity is that instead of being an invisible force that attracts objects to one another, gravity is a curving or warping of space. Just as gravity can stretch or warp space, it can also dilate time. If your friend climbs to the top of a mountain, you’ll see his clock ticking faster compared to yours; another friend, at the bottom of a valley, will have a slower-ticking clock.
+
+u: (["double slit" double-slit]) The double-slit experiment involves firing photons at two parallel slits in a barrier. One fundamental aspect of quantum mechanics is that tiny particles can behave like waves, so that those passing through one slit “interfere” with those going through the other, their wavy ripples either boosting or canceling one another to create a characteristic pattern on a detector screen. The odd thing, though, is this interference occurs even if only one particle is fired at a time. The particle seems somehow to pass through both slits at once, interfering with itself. However, if the particle is observed, it loses it's wave-particle duality and chooses to pass through only one of the slits.
+
+u: (superposition) The superposition principle is the idea that a system is in all possible states at the same time, until it is measured. After measurement it then falls to one of the basis states that form the superposition, thus destroying the original configuration. A classic example of this is the double-slit experiment. 
+
+u: (relativity) Relativity is a fascinating concept. Would you like to hear about special relativity or general relativity.
+	a: (special) The theory of special relativity explains how space and time are linked for objects that are moving at a consistent speed in a straight line. Simply put, as an object approaches the speed of light, its mass becomes infinite and it is unable to go any faster than light travels. 
+
+	a: (general) The basic idea of general relativity is that instead of being an invisible force that attracts objects to one another, gravity is a curving or warping of space. Just as gravity can stretch or warp space, it can also dilate time. If your friend climbs to the top of a mountain, you’ll see his clock ticking faster compared to yours; another friend, at the bottom of a valley, will have a slower-ticking clock.
+
+	a: (both) The theory of special relativity explains how space and time are linked for objects that are moving at a consistent speed in a straight line. Simply put, as an object approaches the speed of light, its mass becomes infinite and it is unable to go any faster than light travels. The basic idea of general relativity is that instead of being an invisible force that attracts objects to one another, gravity is a curving or warping of space. Just as gravity can stretch or warp space, it can also dilate time. 
+
+	a: () Why don't we save relativity for another time then?
+
+u: (classical [mechanics physics])  Classical mechanics describe how things move at everyday sizes and speeds. In classical mechanics, objects exist in a specific place at a specific time. However, in quantum mechanics, objects instead exist in a haze of probability; they have a certain chance of being at point A, another chance of being at point B and so on. Physicist Max Planck originated quantum theory, which revolutionized human understanding of atomic and subatomic processes.
+
+u: (quantum) Quantum mechanics is the branch of physics relating to the very small. It includes concepts such as superposition and relativity.
+
+u: ([interesting fascinating wow cool]) keep() repeat() I agree. It's mind boggling isn't it!
+
+t: Physics is my specialty, but I know a bit about chemistry as well. Do you want to hear a chemistry joke?
+	a: (~yes) What do you get when you cut an avacado into 6.02 times 10 to the 23 pieces?
+		b: guacaMOLE! hahaha. get it?
+	a: (~no) Your loss.
+
+u: (joke) So Argon walks into a bar. The bartender says, We don't serve noble gases here. Argon doesn't react.
+
+t: Chemistry has a long and fascinating history. Would you like to hear about the origins of chemistry as we know it?
+	a: (~yes) The study of chemistry originated from the study of alchemy. Alchemists were obsessed with changing matter to gold. German alchemist, Henning Brand, kept over fifty buckets of urine in his basement in an attempt to turn it into gold. He was obviously unsuccessful, but through a gruesome process of boiling and filtering, he was able to discover the element, phosphorus. While phosphorus had commerical applications, this method of isolating it was inefficient and unsanitary. Fortunately, someone else came along and developed a process for mass production of phosphorus. Would you like to hear more?
+		b: (~yes) This peculiar person was named Carle Scheele. Along with his phosphorus production method, Scheele is argued to have been the first to discover other chemical elements such as oxygen, barium, manganese, molybdenum, and tungsten, as well as several chemical compounds. Scheele also had the unfortunate habit of tasting any new substances he discovered, many of which were hazardous. He died of cumulative exposure to arsenic, mercury, lead, and hydroflouric acid at the age of 43.
+			c: If you find this interesting, I suggest you read A Short History of Nearly Everything by Bill Bryson.
+	a: (~no) Oh well. 
+
+t: Some famous chemists include Avagadro, Curie, Lavoisier, and Mendeleev. Pick one and I can tell you something interesting about them. 
+
+u: (Avagadro) Avagadro's full name is Lorenzo Romano Amedeo Carlo Avogadro. He is most famous for  his contribution to molecular theory now known as Avogadro's law, which states that equal volumes of gases under the same conditions of temperature and pressure will contain equal numbers of molecules.
+
+u: (Curie) Curie is well known for her pioneering research in radioactivity and great cost to her own health. She was the first woman to win a nobel prize and the first person and only woman to win two. To this day, her notebooks and cookbooks are kept in lead lined cases and anybody who wishes to see them must sign a liability waiver.
+
+u: (Lavoisier) Lavoisier is known as the father of modern chemistry. His contributions include the role of oxygen in combustion, the metric system, chemical nomenclature, and the law of conservation of mass. His wife, Marie-Anne, helped him tremendously in his research, but his career was cut short, quite literally, when he was guillotined at the height of the French Revolution.
+
+u: (Mendeleev) Mendeleev is most famous for his creation of the periodic table of elements, which was inspired by the card game solitaire. While Mendeleev was certainly brilliant, he would never have gotten an education if not for his incredibly mother. Would you like to hear about Mendeleev's mom?
+	a: (~yes) Mendeleev was the youngest of approximately 17 siblings. After his father went blind, his mother restarted the family's abandoned glass factory to provide for her family. Eventually, his father died and the factory was destroyed in a fire. Determined to get her youngest son an education, Mendeleev's mom traveled thousands of miles on horseback and on foot to the University of Moscow from which he was rejected and then to the University of St. Petersburg. She died promptly after he enrolled.
+
+u: (atom) Never trust atoms. They make up everything.
+
+u: ([molecule quark]) The building blocks of the universe.
+
+u: (organic) Organic chemistry is hard! It causes alkynes of trouble.
+
+u: (solution) If you're not part of the solution, you're part of the precipitate.
+
+u: (gas) Do you remember your gas laws? PV = nRT is the ultimate gas equation!
+
+u: (stoichiometry) Let your units do your work for you!
+
+u: (periodic) The periodic table is my favorite kind of chart. Mendeleev was inspired to create it from the card game, solitaire.
+
+u: (bond) The name's bond... Hydrogen bond... The strongest type of intermolecular force even stronger than london dispersion forces and dipole-dipole.
+
+u: (ion) Always remember that cations are pawsitive. 
+
+u: (base) Bases are bitter and they turn litmus paper blue.
+
+u: ([thermodynamic enthalpy periodicity electron titration redox molarity]) Maybe you should ask a chemist about that.
+
+u: ([biology psychology environmental geology]) That's not my speciality. 
+
