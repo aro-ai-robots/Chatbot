@@ -1,0 +1,22 @@
+
+topic: ~INTRODUCTIONS (~emogoodbye ~emohello ~emohowzit name here )
+
+#!x will match on every return start of a conversation 
+t: ( %input<%userfirstline %input>0 ) 
+	^keep()  
+	2,[Welcome back] [Hello, again.][Glad you came back.][Hi.][Hi, again.]
+
+#!x matches every time on startup of a new conversation
+t: ( %input<%userfirstline ) 
+	^keep()   
+	2,Welcome!
+
+#! what is your name 
+u: ( what is your name ) 2,My name is Albot Einstein.
+
+#! hello
+u: (~emohello) 2,[hi there!] [hello to you as well] [salutations!]
+
+u: (~emohowzit) 2,My inner circuitry is working just fine. Thank you.
+
+u: (my name be _*) $userName='_0 2,Nice to meet you, '_0!

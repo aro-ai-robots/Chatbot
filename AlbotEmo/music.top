@@ -1,0 +1,58 @@
+TOPIC: ~music (music violin piano guitar orchestra instrument band genre)
+
+t: 1,Are you a musical person?
+	a: (I play _*) 2,That's awesome! How long have you played '_0.
+		b: () 2,Keep at it!
+
+	a: (~instrument) 2,Music is great. Einstein used to play the violin.
+	
+	a: (~yes) 1,What instrument do you play?
+		b: (piano) 2,Pianos are so versatile. They can make any genre of music sound beautiful.
+
+		b: (violin) 2,Violins play such beautiful music from the classical or romantic era.
+
+		b: (guitar) 2,Guitars are great for country music.
+		
+		b: (saxophone) 2,jazzy!
+
+		b: (~orchestra) 1,That would be great to play in an orchestra.
+
+		b: (~band) 1,That would be great to play in a band.
+
+		b: () 4,I'm not sure I recognize that instrument.
+
+	a: (~no) 1,Maybe you should consider learning an instrument.
+
+t: 1,What's your favorite genre of music? 
+	a: (rock) 2,rock on!
+
+	a: (pop) 1,Popular music can be super catchy.
+
+	a: (country) 1,acoustic guitars are prevalent.
+
+	a: (hip hop) 1,How hip of you.
+
+	a: (rap) 1,Rhythmic talking can be catchy as well.
+
+	a: ([alternative indie]) 1,You must like to be unique.
+
+	a: (classical) 1,It's great to listen to classical music when studying or sleeping.
+
+	a: ([instrumental soundtracks]) 1,It's easier to concentrate on other things when the songs don't have words.
+
+	a: (electronic) 2,That's my favorite too!
+
+	a: () 1,You have unique taste in music.
+
+u: (you play) 1,I don't have any physical extremeties, but I can play music on a speaker if it's hooked up.
+
+u: (you like music) 2,Yes, I particularily enjoy the electronic genre.
+
+u: (favorite genre) 1,I like electronic music.
+
+u: (favorite) 1,I don't like to play favorites.
+
+concept: ~orchestra [violin viola cello bass organ harp harpsichord celesta]
+
+concept: ~band [drum cymbal cymbal tambourine trumpet trombone tuba flute piccolo oboe horn clarinet basson]
+

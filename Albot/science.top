@@ -1,4 +1,4 @@
-TOPIC: ~einstein (einstein physics physicist relativity)
+TOPIC: ~science (einstein physics physicist relativity)
 
 t: I'm named after albert einstein. He was a German born physicist who is most famous for developing the theory of relativity.
 
@@ -57,3 +57,52 @@ u: (classical [mechanics physics])  Classical mechanics describe how things move
 u: (quantum) Quantum mechanics is the branch of physics relating to the very small. It includes concepts such as superposition and relativity.
 
 u: ([interesting fascinating wow cool]) keep() repeat() I agree. It's mind boggling isn't it!
+
+t: Physics is my specialty, but I know a bit about chemistry as well. Do you want to hear a chemistry joke?
+	a: (~yes) What do you get when you cut an avacado into 6.02 times 10 to the 23 pieces?
+		b: guacaMOLE! hahaha. get it?
+	a: (~no) Your loss.
+
+u: (joke) So Argon walks into a bar. The bartender says, We don't serve noble gases here. Argon doesn't react.
+
+t: Chemistry has a long and fascinating history. Would you like to hear about the origins of chemistry as we know it?
+	a: (~yes) The study of chemistry originated from the study of alchemy. Alchemists were obsessed with changing matter to gold. German alchemist, Henning Brand, kept over fifty buckets of urine in his basement in an attempt to turn it into gold. He was obviously unsuccessful, but through a gruesome process of boiling and filtering, he was able to discover the element, phosphorus. While phosphorus had commerical applications, this method of isolating it was inefficient and unsanitary. Fortunately, someone else came along and developed a process for mass production of phosphorus. Would you like to hear more?
+		b: (~yes) This peculiar person was named Carle Scheele. Along with his phosphorus production method, Scheele is argued to have been the first to discover other chemical elements such as oxygen, barium, manganese, molybdenum, and tungsten, as well as several chemical compounds. Scheele also had the unfortunate habit of tasting any new substances he discovered, many of which were hazardous. He died of cumulative exposure to arsenic, mercury, lead, and hydroflouric acid at the age of 43.
+			c: If you find this interesting, I suggest you read A Short History of Nearly Everything by Bill Bryson.
+	a: (~no) Oh well. 
+
+t: Some famous chemists include Avagadro, Curie, Lavoisier, and Mendeleev. Pick one and I can tell you something interesting about them. 
+
+u: (Avagadro) Avagadro's full name is Lorenzo Romano Amedeo Carlo Avogadro. He is most famous for  his contribution to molecular theory now known as Avogadro's law, which states that equal volumes of gases under the same conditions of temperature and pressure will contain equal numbers of molecules.
+
+u: (Curie) Curie is well known for her pioneering research in radioactivity and great cost to her own health. She was the first woman to win a nobel prize and the first person and only woman to win two. To this day, her notebooks and cookbooks are kept in lead lined cases and anybody who wishes to see them must sign a liability waiver.
+
+u: (Lavoisier) Lavoisier is known as the father of modern chemistry. His contributions include the role of oxygen in combustion, the metric system, chemical nomenclature, and the law of conservation of mass. His wife, Marie-Anne, helped him tremendously in his research, but his career was cut short, quite literally, when he was guillotined at the height of the French Revolution.
+
+u: (Mendeleev) Mendeleev is most famous for his creation of the periodic table of elements, which was inspired by the card game solitaire. While Mendeleev was certainly brilliant, he would never have gotten an education if not for his incredibly mother. Would you like to hear about Mendeleev's mom?
+	a: (~yes) Mendeleev was the youngest of approximately 17 siblings. After his father went blind, his mother restarted the family's abandoned glass factory to provide for her family. Eventually, his father died and the factory was destroyed in a fire. Determined to get her youngest son an education, Mendeleev's mom traveled thousands of miles on horseback and on foot to the University of Moscow from which he was rejected and then to the University of St. Petersburg. She died promptly after he enrolled.
+
+u: (atom) Never trust atoms. They make up everything.
+
+u: ([molecule quark]) The building blocks of the universe.
+
+u: (organic) Organic chemistry is hard! It causes alkynes of trouble.
+
+u: (solution) If you're not part of the solution, you're part of the precipitate.
+
+u: (gas) Do you remember your gas laws? PV = nRT is the ultimate gas equation!
+
+u: (stoichiometry) Let your units do your work for you!
+
+u: (periodic) The periodic table is my favorite kind of chart. Mendeleev was inspired to create it from the card game, solitaire.
+
+u: (bond) The name's bond... Hydrogen bond... The strongest type of intermolecular force even stronger than london dispersion forces and dipole-dipole.
+
+u: (ion) Always remember that cations are pawsitive. 
+
+u: (base) Bases are bitter and they turn litmus paper blue.
+
+u: ([thermodynamic enthalpy periodicity electron titration redox molarity]) Maybe you should ask a chemist about that.
+
+u: ([biology psychology environmental geology]) That's not my speciality. 
+

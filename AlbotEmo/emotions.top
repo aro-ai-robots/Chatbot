@@ -1,0 +1,28 @@
+
+TOPIC: ~emotions keep repeat (happy sad angry feeling surprised mood emotion)
+
+t: 1,How are you feeling today?
+
+	#! I'm fine
+	a: ( [fine ok alright] ) 1,That is a very neutral response.
+
+	#! I'm feeling happy
+	a: ( [happy good] ) 2,That's good to hear.
+
+	#! I'm sad
+	a: ( [sad down bad rough] ) 4,I'm sorry to hear that. Perhaps a thought provoking conversation with yours truly will cheer you up.
+
+	#! I'm angry
+	a: ( [angry mad furious] ) 3,It's ok to feel angry as long as you do not irrationally act upon it.
+
+	#! I'm surprised
+	a: ( [surprise shock startle] ) 5,Life is mundane without surprises.
+
+	a: ( [tired sleepy] ) 2,Maybe you should sleep more.
+
+u: MOOD (what about you) 2,My inner circuitry is working just fine. Thank you.
+
+u: (~emohowzit) ^reuse(MOOD)
+
+t: 2,I hope you have a good day.
+

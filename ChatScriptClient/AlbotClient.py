@@ -85,7 +85,13 @@ def sendAndReceiveChatScript(msgToSend, server='127.0.0.1', port=1024, timeout=1
         return msg
     except:
         return None
-
+        
+def updateEmotion(emoNumber):
+	try:
+		sock.send(emoNumber.encode())
+		time.sleep(3)
+	except:
+		print("Failed to send emotion")
 
 if __name__ == '__main__':
     server = "127.0.0.1"
@@ -121,6 +127,7 @@ if __name__ == '__main__':
         port = int(opts.port)
 
     intro = "Hi " + user + ", I am Albot Einstein. "
+    updateEmotion('2')
     print(intro)
     os.system('echo %s | festival --tts' % intro) 
 
@@ -142,6 +149,10 @@ if __name__ == '__main__':
         msg = u'%s\u0000%s\u0000%s\u0000' % (user, botname, s)
         msg = msg.encode('ascii')
         botResp = sendAndReceiveChatScript(msg, server=server, port=port)
+        emoNumber = 0
+        if (botResp[0:1] == "1" or botResp[0:1] == "2" or botResp[0:1] == "3" or botResp[0:1] == "4" or botResp[0:1] == "5"):
+            emoNumber, botResp = botResp.split(',', 1)
+        #print(emoNumber)
         
         if botResp is None:
             print("Error communicating with Chat Server")
@@ -149,6 +160,7 @@ if __name__ == '__main__':
         else:
             try:
                 print("You said: {}".format(s))
+                updateEmotion(emoNumber)
                 print("[Albot]: " + botResp)
                 sock.send('6'.encode())
                 botResp = botResp.replace("'", "")
@@ -160,3 +172,4 @@ if __name__ == '__main__':
                 sock.send('6'.encode())
                 os.system('echo %s | festival --tts' % botResp) 
                 sock.send('7'.encode())
+

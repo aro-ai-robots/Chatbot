@@ -1,0 +1,47 @@
+TOPIC: ~pets (dog cat bird snake pet fish)
+
+t: 1,Do you have any pets?
+	a: (I have a _*) 1,That's cool. How long have you had your '_0?
+		b: 2,That's good to hear. Studies show that people with pets are happier and live longer.
+
+	a: (~pet) 2,That's good to hear. Studies show that people with pets are happier and live longer.
+
+	a: (~yes) 1,What pets do you have?
+		#! parrot
+		b: (~bird) 1,Can your bird talk to you?
+			c: (~yes) 1,I'm more fun to talk to though.
+			c: (~no) 1,Well it's a good thing you have me then.
+
+		#! corn snake
+		b: (~snake) 1,The only snake I know is python programming language.
+	
+		#! goldfish
+		b: (~fish) 1,I wonder if fish are better for companionship or decoration.
+
+		#! great dane
+		b: (~dog) 2,People say dog's are man's best friend. Personally I think computers make better companions.
+
+		#! cat
+		b: (~cat) 1,Cat's are a man's best friend! ...Wait that's not right.
+
+		b: () 1,Even untraditional pets are awesome.
+	
+	a: (~no) 1,Consider getting one. People with pets are happier and live longer.
+
+	a: (not anymore) 4,I'm sorry to hear that. 
+
+t: 1,I myself have never had any living pets, but I have various device drivers which I manage.
+	a: ([driver device]) 2,I love each and every one of my drivers.
+
+concept: ~bird [parrot parakeet finch dove cockatoo cockatiel bird] 
+
+concept: ~snake ["corn snake" rattlesnake python constrictor boa snake] 
+
+concept: ~fish [goldfish beta fish]
+
+concept: ~dog [chihuahua retriever lab poodle pitbull shepherd collie dog husky beagle corgi rottweiler doberman boxer bulldog shih terrier]
+
+concept: ~cat [cat siamese persian bengal ragdoll birman sphynx tabby]
+
+concept: ~pet [~bird ~snake ~fish ~dog ~cat]
+

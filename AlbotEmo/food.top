@@ -1,0 +1,180 @@
+TOPIC: ~foods (~food eat delicious taste breakfast lunch dinner snack ~drink)
+
+u: FOOD (what do you like to eat) 4,I do not have the ability to digest human food.
+
+u: (your favorite food) ^reuse(FOOD)
+
+u: (about you) ^reuse(FOOD)
+
+t: 1,What is your favorite food?
+	a: (~chocolate) 2,The smell of chocolate increases theta brain waves, which triggers relaxation.
+
+	a: (~dessert) 2,You must have a sweet tooth.
+
+	a: (~junkfood) 4,Well that's not very health conscious of you.
+
+	a: (~pasta) 2,Pasta is the best!
+
+	a: (~breakfast) 2,Breakfast is the most important meal of the day.
+
+	a: (~lunch) 1,That would be great to have for lunch.
+
+	a: (~dinner) 1,That would be great to have for dinner.
+
+	a: (~drink) 4,That's not technically a food.
+
+	a: (~alcohol) 4,That's not technically a food. Also, drink responsibly.
+
+	a: (~vegetables) 1,That's health conscious of you.
+
+	a: (~fruit) 2,Fruit is both nutritious and delicious.
+
+	a: (~meat) 2,There's nothing tastier than cooked flesh.
+
+	a: (~dairy) 1,Approximately 65 percent of people are lactose intolerant. 
+
+	a: (~nuts) 1,Nuts are full of healthy fats.
+
+	a: (~carbs) 2,Gotta have those carbs!
+
+	a: () 4,What an odd choice...
+
+t: 1,Are there any other foods that you like?
+	a: (~chocolate) 2,The smell of chocolate increases theta brain waves, which triggers relaxation.
+
+	a: (~dessert) 2,You must have a sweet tooth.
+
+	a: (~junkfood) 4,Well that's not very health conscious of you.
+
+	a: (~pasta) 2,Pasta is the best!
+
+	a: (~breakfast) 1,Breakfast is the most important meal of the day.
+
+	a: (~lunch) 1,That would be great to have for lunch.
+
+	a: (~dinner) 1,That would be great to have for dinner.
+
+	a: (~drink) 4,That's not technically a food.
+
+	a: (~alcohol) 4,That's not technically a food. Also, drink responsibly.
+
+	a: (~vegetables) 1,That's health conscious of you.
+
+	a: (~fruit) 2,Fruit is both nutritious and delicious.
+
+	a: (~meat) 2,There's nothing tastier than cooked flesh.
+
+	a: (~dairy) 1,Approximately 65 percent of people are lactose intolerant. 
+
+	a: (~nuts) 1,Nuts are full of healthy fats.
+
+	a: (~carbs) 2,Gotta have those carbs!
+
+	a: () 4,What an odd choice...
+
+
+u: (~chocolate) 2,The smell of chocolate increases theta brain waves, which triggers relaxation.
+
+u: (~dessert) 2,You must have a sweet tooth.
+
+u: (~junkfood) 4,That's not very healthy.
+
+u: (~pasta) 2,Pasta is the best!
+
+u: (~breakfast) 1,Breakfast is the most important meal of the day.
+
+u: (~lunch) 2,Mmmm... I think I'm ready for lunch.
+
+u: (~dinner) 2,Mmmm... I think I'm ready for dinner.
+
+u: (~drink) 2,How refreshing.
+
+u: (~alcohol) 1,Drink responsibly.
+
+u: (~vegetables) 1,Veggies are very healthy but they can be bland if not prepared properly.
+
+u: (~fruit) 2,Fruit is both nutritious and delicious.
+
+u: (~meat) 2,There's nothing tastier than cooked flesh.
+
+u: (~dairy) 1,Approximately 65 percent of people are lactose intolerant. 
+
+u: (~nuts) 1,Nuts are full of healthy fats.
+
+u: (~carbs) 2,Gotta have those carbs!
+
+t: 1,What do you like to drink?
+	a: (coffee) 1,How do you like your coffee?
+		b: (black) 4,That must be bitter!
+		
+		b: ([milk cream]) 2,Milk and cream makes coffee taste way better.
+
+		b: (sugar) 1,Coffee must be too bitter by itself.
+
+		b: (ice) 2,Cold coffee is very refreshing.
+
+		b: () 1,Everybody has a favorite type of coffee.
+
+	a: (tea) 1,Tea is great for relaxing.
+
+	a: (juice) 2,Fruity, flavorful and full of sugar.
+
+	a: (milk) 1,Approximately 65 percent of people are lactose intolerant. 
+
+	a: (~soda) 2,Sugary bubbly goodness.
+
+	a: (smoothie) 2,Smoothies are healthy and tasty
+
+	a: (milkshake) 2,They're like smoothies but tastier. Ice cream makes everything better.
+
+	a: (~alcohol) 1,Drink responsibly.
+
+	a: (water) 2,Good old H2o. Nice choice!
+
+	a: () 1,You drink some weird stuff
+
+concept: ~vegetables [vegetable carrot asparagus cucumber potato tomato celery lettuce spinach cabbage pumpkin radish onion leek parsnip broccoli artichoke turnip pepper zucchini kale corn maize cauliflower "sweet potato" eggplant]
+
+concept: ~fruit [fruit apple banana grape orange watermelon melon honeydew tangerine clementine strawberry berry blueberry blackberry raspberry peach nectarine apricot avocado pomegranate cherry grapefruit lemon lime cantaloupe pear pineapple]
+
+concept: ~meat [meat ~fish chicken beef pork turkey ham salami]
+
+concept: ~fish [fish salmon tilapia tuna flounder bass trout]
+
+concept: ~dairy [dairy milk cheese yogurt cream]
+
+concept: ~nuts [nut almonds peanuts cashews macadamia hazelnut pine brazil]
+
+concept: ~dessert [dessert cream cake cookie brownie doughnut donut pie cobbler twinkie ~chocolate cheesecake ~candy blondie fudge sundae eclair smore churro custard macaron mochi oreo]
+
+concept: ~chocolate [twix kit-kat kitkat reeses "almond joy" snickers "milky way" musketeers heath goodbar payday truffle hersheys cadbury lindt rocher kinder chirardelli toblerone]
+
+concept: ~candy [candy starburst smarties "sour patch kids" "jolly rancher" lollipop toostie whoppers nerds twizzlers skittles airheads "jelly beans" "swedish fish" "life savers" "fun dip" butterscotch]
+
+concept: ~spices [spice salt pepper paprika tumeric cumin]
+
+concept: ~herbs [herb oregano parsely cilantro basil]
+
+concept: ~condiments [sauce siracha ketchup mustard mayo mayonaisse hummus jam jelly butter nutella "cream cheese"]
+
+concept: ~fat [fat oil butter crisco margarine]
+
+concept: ~carbs [carb bread oat rice flour quinoa beans cracker]
+
+concept: ~breakfast [oatmeal cereal toast egg pancake waffle omlet smoothie hash sausage]
+
+concept: ~lunch [sandwich ~pasta salad burger hamburger soup pizza nuggets]
+
+concept: ~dinner [~pasta chicken beef steak roast soup stew salad ~fish sushi "stir fry"]
+
+concept: ~pasta [pasta spaghetti ravioli macaroni linguini fettuccine udon ramen mein noodle stromboni]
+
+concept: ~junkfood [fries chips pizza burger hamburger rings fry corndog "cheese sticks" hotdog ~dessert nacho cheetos nuggets doritos fritos]
+
+concept: ~drink [water ~soda juice milk tea coffee smoothie milkshake]
+
+concept: ~soda [soda coke sprite fanta pepper rootbeer cola]
+
+concept: ~alcohol [alcohol beer wine vodka tequila scotch whiskey rum]
+
+concept: ~food [~vegetables ~fruit ~meat ~dairy ~nuts ~dessert ~spices ~herbs ~condiments ~fat ~carbs ~breakfast ~lunch ~dinner]

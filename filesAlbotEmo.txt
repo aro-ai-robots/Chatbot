@@ -1,0 +1,5 @@
+# underlying conversation system
+RAWDATA/AlbotEmo/	
+# quibble ability
+RAWDATA/QUIBBLE/
+
