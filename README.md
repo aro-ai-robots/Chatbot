@@ -21,13 +21,15 @@ This should run the chatscript demo bot, Harry.
 git clone https://github.com/aro-ai-robots/Chatbot.git
 ``` 
 
-Copy the Albot directory from Chatbot and paste it in ChatScript/RAWDATA. Additionally, copy filesAlbot.txt and paste it in ChatScript/RAWDATA. To run Albot: 
+Copy the Albot directory from Chatbot and paste it in ChatScript/RAWDATA. 
+Additionally, copy filesAlbot.txt and paste it in ChatScript/RAWDATA. 
+To run Albot: 
 
 ```
 cd ChatScript
 ./BINARIES/LinuxChatScript64 local
 ``` 
 
-Enter your username and then enter the command - :build Albot
-If you want to reset the conversation, use the command - :reset
-If you want to quit the converstaion, use the command - :quit
+Enter your username and then enter the command - :build Albot 
+If you want to reset the conversation, use the command - :reset 
+If you want to quit the converstaion, use the command - :quit 
