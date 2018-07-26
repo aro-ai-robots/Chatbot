@@ -7,7 +7,7 @@ This project is a collection of chatbots that are meant to be run in chatscript 
 In the Linux terminal, run the following: 
 
 ```
-git clone https://github.com/bwilcox-1234/ChatScript
+git clone https://github.com/ChatScript/ChatScript.git
 cd ChatScript
 cd BINARIES
 chmod a+x ./LinuxChatScript64
