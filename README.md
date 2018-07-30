@@ -73,7 +73,7 @@ On your laptop, open up a new termial and run the following commands.
 
 ```
 cd Chatbot/ChatScriptClient
-python3 AlbotClient.py
+python3 AlbotClient.py -u username -b Albot -s 127.0.0.1 -p 1024
 ```
 
 Enter the IP address from the raspberry pi and start talking to Albot Einstein
