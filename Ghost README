@@ -32,7 +32,7 @@ rlwrap telnet localhost 4444
 Now start the cogserver in another new terminal: 
 cd /opencog/build
 ./opencog/cogserver/server/cogserver -c my conf.conf
-(put myconf.conf in the opencog/build directory) 
+(put myconf.conf in the /opencog/ directory) 
 
 in a new terminal:
 rlwrap telnet localhost 17001
