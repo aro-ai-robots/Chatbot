@@ -1,0 +1,55 @@
+In order to run GHOST first build opencog,atomspace, cogutils and make sure that is working properly.
+
+Next install guile 2.2.4 https://www.gnu.org/software/guile/download/ After the download cd into the guile 2.2.4 directory,
+now type the following:
+./configure
+make
+sudo make install
+
+Now install relex, Cd into the same folder where opencog,cogutils, and atomspace are and complete the following:
+git clone https://github.com/opencog/relex
+cd relex
+mkdir build
+cmake ..
+make
+sudo make install
+
+Install relex dependencies
+cd relex/install-scripts/
+./install-ubuntu-dependencies.sh
+cd
+
+next make sure UUID is installed, type:
+sudo apt-get install uuid
+
+Now start the relex server:
+cd /relex/
+./opencog-server.sh 
+
+In a new terminal:
+rlwrap telnet localhost 4444
+
+Now start the cogserver in another new terminal: 
+cd /opencog/build
+./opencog/cogserver/server/cogserver -c my conf.conf
+(put myconf.conf in the opencog/build directory) 
+
+in a new terminal:
+rlwrap telnet localhost 17001
+loadmodule opencog/build/opencog/attention/libattention.so
+agents-start opencog::AFImportanceDiffusionAgent opencog::WAImportanceDiffusionAgent opencog::AFRentCollectionAgent opencog::WARentCollectionAgent
+scm
+(use-modules (opencog)
+             (opencog nlp)
+             (opencog nlp relex2logic)
+             (opencog openpsi)
+             (opencog ghost)
+             (opencog ghost procedures))
+          
+(ecan-based-ghost-rules #t)
+
+(ghost-parse-files "path/to/the/rule/file1" "path/to/the/rule/file2") we were only able to load 6 files or else it would stall
+(ghost-run)
+(ghost "say something")
+
+any questions refer to the GHOST Readme https://github.com/opencog/opencog/tree/master/opencog/ghost. 
